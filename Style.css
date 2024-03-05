@@ -1,0 +1,62 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+header{
+  color: white;
+}
+/*UPPERNAV*/
+.uppernav{
+  height: 80px;
+  width: 100vw;
+  background-color: #282f3a;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.uppernav div{
+  border: 3px solid white;
+  border-radius: 5px;
+}
+.uppernav div:hover{
+  border: 3px solid white;
+  
+}
+/* Logo */
+.logo{
+  height: 74px;
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  height: 50px;
+  background-size: cover;
+}
+/* location-button */
+.locate{
+  height: 74px;
+  width: 100px;
+  display: block;
+  border: 3px solid white;
+}
+.locate p{
+  position: relative;
+  left: 23px;
+  top: 20px;
+}
+#locate1{
+  position: relative;
+  top: 20px;
+  right: 5px;
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+}
+.locate i{
+
+  position: relative;
+  right: 4px;
+}
+/* Search */
